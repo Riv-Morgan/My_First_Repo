@@ -1,0 +1,112 @@
+/* NAVIGATION*/
+
+.nav-link{
+    font-family:'Montserrat', sans-serif;
+    font-weight:300;
+    color:white !important;
+    border-bottom: solid white 1px;
+}
+
+.jumbotron1{
+    background-image: url(../IMAGES/USAHERO@2x.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-bottom:10%;
+}
+
+.display-4{
+    color:white !important;
+    padding-left:10%
+}
+
+/* HERO IMAGE & INTRODUCTION */
+.jumbotron2{
+    background-image: url(../IMAGES/USABLWT@2x.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.img-responsive{
+    padding-top:10%;
+    align-content:left;
+}
+
+
+.intro{
+   padding-top:10%;
+    padding-left:10%;
+    font-family:'Montserrat', sans-serif;
+    font-weight:500;
+    color:#4166AF !important;
+}
+
+.bio{
+    padding-left:10%;
+    color:black;
+    font-family:'Montserrat', sans-serif;
+    font-weight:300;
+}
+
+.btn {
+    background-color:#FB6157;
+    border-color:#FB6157;
+    margin-left:10%;
+    font-weight:300;
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+
+
+/* RESEARCH */
+.mainBG{
+    background-image: url();
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.title{
+    font-family:'Montserrat', sans-serif;
+    padding-top:10%;
+    font-weight:700;
+    font-size:400%;
+}
+
+.paragraph{
+    font-family:'Montserrat', sans-serif;
+    padding-top:10%;
+    font-weight:300;
+    font-size:200%;
+    text-align:center;
+
+}
+.persona{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+
+
+/* WIREFRAME */
+.card-columns{
+    padding-left:10%;
+    padding-right:10%;
+}
+
+/* FOOTER */
+
+.navbar-lt{
+    background-color:#5AC6D9;
+    padding-bottom:5%
+}
+
+
