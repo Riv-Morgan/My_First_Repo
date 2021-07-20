@@ -14,11 +14,18 @@
     background-size: cover;
     -o-background-size: cover;
     padding-bottom:10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
 }
 
 .display-4{
     color:white !important;
     padding-left:10%
+}
+
+.home{
+    align-content:flex-start;
 }
 
 /* HERO IMAGE & INTRODUCTION */
@@ -31,8 +38,10 @@
 }
 
 .img-responsive{
-    padding-top:10%;
+    padding-top:10% transparent;
     align-content:left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 
@@ -67,7 +76,7 @@
 
 /* RESEARCH */
 .mainBG{
-    background-image: url(../IMAGES/TESTBGR@2x.png);
+    background-image: url(../IMAGES/TESTBGR@2xpng);
     background-size:cover;
     background-position:cover;
     background-repeat:no-repeat;
@@ -104,9 +113,22 @@
 
 
 /* WIREFRAME */
+.proto{
+    align-content:center;
+}
 .card-columns{
     padding-left:10%;
     padding-right:10%;
+}
+
+.video{
+align-content:center;
+max-width:100%;
+  
+}
+
+.card-columns{
+    padding-top:15px;
 }
 
 /* FOOTER */
@@ -116,4 +138,6 @@
     padding-bottom:5%
 }
 
-
+.footer{
+    align-content:center;
+}
