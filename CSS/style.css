@@ -67,9 +67,9 @@
 
 /* RESEARCH */
 .mainBG{
-    background-image: url(../IMAGES/TESTBGX@2x.png);
+    background-image: url(../IMAGES/TESTBGR@2x.png);
     background-size:cover;
-    background-position:center center;
+    background-position:cover;
     background-repeat:no-repeat;
 
 }
