@@ -67,11 +67,14 @@
 
 /* RESEARCH */
 .mainBG{
-    background-image: url();
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-image: url(../IMAGES/TESTBGX@2x.png);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+
+}
+.container{
+    align-content:center !important;
 }
 
 .title{
@@ -84,7 +87,7 @@
 .paragraph{
     font-family:'Montserrat', sans-serif;
     padding-top:10%;
-    font-weight:300;
+    font-weight:500;
     font-size:200%;
     text-align:center;
 
@@ -94,6 +97,10 @@
     text-align: center;
 }
 
+.space{
+    padding-top:15px;
+    align-content:center !important;
+}
 
 
 /* WIREFRAME */
