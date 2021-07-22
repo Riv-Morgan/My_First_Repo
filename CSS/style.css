@@ -79,7 +79,7 @@
 .top-left {
     position:absolute;
     top: 25%;
-    left:20%;
+    left:10%;
   }
 
   .heading{
@@ -96,6 +96,7 @@
     font-family:'Montserrat', sans-serif;
     font-weight:500;
     font-size:200%;
+    padding-bottom:35px;
   }
 
   .top-right {
@@ -111,65 +112,77 @@
     font-weight:300;
     font-size:100%;
   }
+
+  .spacer{
+      border-bottom: #4166AF dotted 10px;
+  }
+
+  .text-orientation {
+    text-orientation: sideways;
+  }
+
+  .titledirection {
+    padding-top:5%;
+    color:black;
+    writing-mode: vertical-lr;
+    font-family:'Montserrat', sans-serif;
+    font-weight:300;
+    font-size:700%;
+  }
+
+  .name{
+    padding-top:5%;
+    font-family:'Montserrat', sans-serif;
+    font-weight:500;
+    font-size:500%;
+  }
+
+  .imgheading{
+    padding-top:5%;
+  }
+  
+  .info {
+    max-width: 750px;
+    position: relative;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-family:'Montserrat', sans-serif;
+  }
+  
+  .vertical {
+    padding-top: 2px;
+    writing-mode: vertical-rl;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 700;
+    font-family:'Montserrat', sans-serif;
+    border-right: solid black 1px;
+  }
+
+  .vertical2{
+      padding-top:130px;
+      writing-mode: vertical-rl;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 700;
+    font-family:'Montserrat', sans-serif;
+    border-right: solid black 1px;
+  }
+    
+  
+  
+
+  
 /* CURRENT*/
 
-.mainBG{
-    background-image: url(../IMAGES/TESTBGR@2xpng);
-    background-size:cover;
-    background-position:cover;
-    background-repeat:no-repeat;
-
-}
-.container{
-    align-content:center !important;
-}
-
-.title{
-    font-family:'Montserrat', sans-serif;
-    padding-top:10%;
-    font-weight:700;
-    font-size:400%;
-}
-
-.paragraph{
-    font-family:'Montserrat', sans-serif;
-    padding-top:10%;
-    font-weight:500;
-    font-size:200%;
-    text-align:center;
-
-}
-.persona{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width:100%;
-    align-content:center;
-    
-}
-
-.space{
-    padding-top:15px;
-    align-content:center !important;
-}
 
 
-/* WIREFRAME */
-.proto{
-    align-content:center;
-}
-.card-columns{
-    padding-left:10%;
-    padding-right:10%;
-}
-
-.video{
-align-content:center;
-max-width:100%;
-  
-}
-
-.card-columns{
-    padding-top:15px;
-}
 
 /* FOOTER */
 
