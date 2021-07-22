@@ -75,6 +75,44 @@
 
 
 /* RESEARCH */
+
+.top-left {
+    position:absolute;
+    top: 25%;
+    left:20%;
+  }
+
+  .heading{
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    font-size:600%;
+  }
+
+  .imgheading{
+    transform:rotate(90deg);
+  }
+
+  .responsibilities{
+    font-family:'Montserrat', sans-serif;
+    font-weight:500;
+    font-size:200%;
+  }
+
+  .top-right {
+    padding-left:30%;
+	justify-content: flex-end;
+	align-items: flex-start;
+	align-content: flex-start;
+
+  }
+
+  p{
+    font-family:'Montserrat', sans-serif;
+    font-weight:300;
+    font-size:100%;
+  }
+/* CURRENT*/
+
 .mainBG{
     background-image: url(../IMAGES/TESTBGR@2xpng);
     background-size:cover;
@@ -103,7 +141,9 @@
 }
 .persona{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+    width:100%;
+    align-content:center;
+    
 }
 
 .space{
